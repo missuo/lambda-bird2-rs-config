@@ -1,6 +1,6 @@
 hostname: rs2.lambda-ix.net
 asn: 51930
-router-id: 103.152.112.48
+router-id: 149.112.26.254
 kernel-export: false
 default-route: false
 rtr-server: localhost:8282
@@ -13,210 +13,210 @@ templates:
     auto-as-set: true
     filter-transit-asns: true
     announce-originated: false
-    announce-communities: [ "51930,10", "51930:0:10" ]
+    announce-communities: ["51930,10", "51930:0:10"]
     remove-all-communities: 51930
     local-pref: 100
     passive: true
     rs-client: true
     allow-blackhole-community: true
-    import-communities: [ "51930,10", "51930:0:10" ]
+    import-communities: ["51930,10", "51930:0:10"]
 
 peers:
   routeviews:
     asn: 6447
     neighbors:
-      - 128.223.51.105
-      - 2001:468:d01:33::80df:3369
+    - 128.223.51.105
+    - 2001:468:d01:33::80df:3369
     multihop: true
     filter-never-via-route-servers: true
     auto-import-limits: true
     filter-transit-asns: true
     announce-originated: false
-    announce-communities: [ "51930,10", "51930:0:10" ]
+    announce-communities: ["51930,10", "51930:0:10"]
     remove-all-communities: 51930
     local-pref: 100
     passive: true
     rs-client: true
     allow-blackhole-community: true
-    import-communities: [ "51930,10", "51930:0:10" ]
+    import-communities: ["51930,10", "51930:0:10"]
 
   August Internet:
     asn: 7719
     template: peer
     neighbors:
-      - 149.112.26.1
-      - 2a0f:607:1070::1
+    - 149.112.26.1
+    - 2a0f:607:1070::1
 
   IT Lab:
     asn: 38254
     template: peer
     neighbors:
-      - 149.112.26.2
-      - 2a0f:607:1070::2
+    - 149.112.26.2
+    - 2a0f:607:1070::2
 
   RHE-NET:
     asn: 51044
     template: peer
     neighbors:
-      - 149.112.26.3
-      - 2a0f:607:1070::3
+    - 149.112.26.3
+    - 2a0f:607:1070::3
 
   SteveYi:
     asn: 60614
     template: peer
     neighbors:
-      - 149.112.26.4
-      - 2a0f:607:1070::4
+    - 149.112.26.4
+    - 2a0f:607:1070::4
 
   Yu-Cheng Kuo4:
     asn: 210932
     neighbors:
-      - 149.112.26.5
+    - 149.112.26.5
     filter-never-via-route-servers: true
     auto-import-limits: true
     filter-transit-asns: true
     announce-originated: false
-    announce-communities: [ "51930,10", "51930:0:10" ]
+    announce-communities: ["51930,10", "51930:0:10"]
     remove-all-communities: 51930
     local-pref: 100
     passive: true
     rs-client: true
     allow-blackhole-community: true
-    import-communities: [ "51930,10", "51930:0:10" ]
+    import-communities: ["51930,10", "51930:0:10"]
 
   Yu-Cheng Kuo:
     asn: 210932
     template: peer
     neighbors:
-      - 2a0f:607:1070::5
+    - 2a0f:607:1070::5
 
   Chan-Chun Yen4:
     asn: 212534
     neighbors:
-      - 149.112.26.6
+    - 149.112.26.6
     filter-never-via-route-servers: true
     auto-import-limits: true
     filter-transit-asns: true
     announce-originated: false
-    announce-communities: [ "51930,10", "51930:0:10" ]
+    announce-communities: ["51930,10", "51930:0:10"]
     remove-all-communities: 51930
     local-pref: 100
     passive: true
     rs-client: true
     allow-blackhole-community: true
-    import-communities: [ "51930,10", "51930:0:10" ]
+    import-communities: ["51930,10", "51930:0:10"]
 
   Chan-Chun Yen:
     asn: 212534
     template: peer
     neighbors:
-      - 2a0f:607:1070::6
+    - 2a0f:607:1070::6
 
   Haraguroicha4:
     asn: 212359
     neighbors:
-      - 149.112.26.7
+    - 149.112.26.7
     filter-never-via-route-servers: true
     auto-import-limits: true
     filter-transit-asns: true
     announce-originated: false
-    announce-communities: [ "51930,10", "51930:0:10" ]
+    announce-communities: ["51930,10", "51930:0:10"]
     remove-all-communities: 51930
     local-pref: 100
     passive: true
     rs-client: true
     allow-blackhole-community: true
-    import-communities: [ "51930,10", "51930:0:10" ]
+    import-communities: ["51930,10", "51930:0:10"]
 
   Haraguroicha:
     asn: 212359
     template: peer
     neighbors:
-      - 2a0f:607:1070::7
+    - 2a0f:607:1070::7
 
   littlemoe:
     asn: 43126
     template: peer
     neighbors:
-      - 149.112.26.8
-      - 2a0f:607:1070::8
+    - 149.112.26.8
+    - 2a0f:607:1070::8
 
   natolab:
     asn: 46997
     template: peer
     neighbors:
-      - 149.112.26.9
-      - 2a0f:607:1070::9
+    - 149.112.26.9
+    - 2a0f:607:1070::9
 
   len:
     asn: 210872
     template: peer
     neighbors:
-      - 149.112.26.10
-      - 2a0f:607:1070::10
+    - 149.112.26.10
+    - 2a0f:607:1070::10
 
   Mrsheep:
     asn: 211323
     template: peer
     neighbors:
-      - 149.112.26.11
-      - 2a0f:607:1070::11
+    - 149.112.26.11
+    - 2a0f:607:1070::11
 
   jimmypan4:
     asn: 212360
     neighbors:
-      - 149.112.26.12
+    - 149.112.26.12
     filter-never-via-route-servers: true
     auto-import-limits: true
     filter-transit-asns: true
     announce-originated: false
-    announce-communities: [ "51930,10", "51930:0:10" ]
+    announce-communities: ["51930,10", "51930:0:10"]
     remove-all-communities: 51930
     local-pref: 100
     passive: true
     rs-client: true
     allow-blackhole-community: true
-    import-communities: [ "51930,10", "51930:0:10" ]
+    import-communities: ["51930,10", "51930:0:10"]
 
   jimmypan:
     asn: 212360
     template: peer
     neighbors:
-      - 2a0f:607:1070::12
+    - 2a0f:607:1070::12
 
   HE:
     asn: 6939
     neighbors:
-      - 149.112.26.13
-      - 2a0f:607:1070::13
+    - 149.112.26.13
+    - 2a0f:607:1070::13
     filter-never-via-route-servers: true
     auto-import-limits: true
     announce-originated: false
-    announce-communities: [ "51930,10", "51930:0:10" ]
+    announce-communities: ["51930,10", "51930:0:10"]
     remove-all-communities: 51930
     local-pref: 100
     passive: true
     rs-client: true
     allow-blackhole-community: true
-    import-communities: [ "51930,10", "51930:0:10" ]
+    import-communities: ["51930,10", "51930:0:10"]
 
   cloudie:
     asn: 60438
     template: peer
     neighbors:
-      - 149.112.26.14
-      - 2a0f:607:1070::14
+    - 149.112.26.14
+    - 2a0f:607:1070::14
 
   kagl:
     asn: 50555
     template: peer
     neighbors:
-      - 149.112.26.15
-      - 2a0f:607:1070::15
+    - 149.112.26.15
+    - 2a0f:607:1070::15
 
   fubuki:
     asn: 212425
     template: peer
     neighbors:
-      - 149.112.26.16
-      - 2a0f:607:1070::16
+    - 149.112.26.16
+    - 2a0f:607:1070::16
