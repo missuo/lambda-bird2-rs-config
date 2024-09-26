@@ -103,12 +103,12 @@ peers:
       - 149.112.26.11
       - 2a0f:607:1070::11
 
-  jimmypan:
-    asn: 212360
-    template: peer
-    neighbors:
-      - 149.112.26.12
-      - 2a0f:607:1070::12
+  # jimmypan:
+  #   asn: 212360
+  #   template: peer
+  #   neighbors:
+  #     - 149.112.26.12
+  #     - 2a0f:607:1070::12
 
   HE:
     asn: 6939
